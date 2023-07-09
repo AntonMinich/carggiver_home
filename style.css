@@ -1,0 +1,82 @@
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.first-section .title {
+   height: 800px;
+}
+
+.first-section header {
+    background-color: #52503B;
+    height: 80px;
+}
+
+.first-section header .box nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.first-section header .box nav ul li a {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    padding-right: 24px;
+    text-decoration: none;
+}
+
+.first-section header .box {
+    margin: 0 120px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.first-section header .box .s-logo {
+    padding-right:358px;
+}
+
+.first-section header .box nav ul li .button {
+   color: #52503B;
+   font-size: 16px;
+   padding: 11px 18px;
+   background-color: #fff;
+   border-radius: 6px;
+   margin-left: 344px;
+}
+
+.first-section .title {
+    background-image: url(./images/fon.png);
+}
+
+.first-section .title .content {
+    text-align: center;
+    padding-top: 168px;
+    margin: 0 120px;
+    color: #FFF;
+}
+
+.first-section .title .content .l-logo {
+    padding-bottom: 34px;
+}
+
+.first-section .title .content .text h1{
+    font-size: 48px;
+    line-height: 52.8px;
+    padding-bottom: 34px;
+}
+
+.first-section .title .content .text p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.first-section .title .content .text {
+    margin-bottom: 240px;
+}
