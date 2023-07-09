@@ -1,0 +1,335 @@
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.first-section .title {
+   height: 800px;
+}
+
+.first-section header {
+    background-color: #52503B;
+    height: 80px;
+}
+
+.first-section header .box nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.first-section header .box nav ul li a {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    padding-right: 24px;
+    text-decoration: none;
+}
+
+.first-section header .box {
+    margin: 0 120px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.first-section header .box .s-logo {
+    padding-right:358px;
+}
+
+.first-section header .box nav ul li .button {
+   color: #52503B;
+   font-size: 16px;
+   padding: 11px 18px;
+   background-color: #fff;
+   border-radius: 6px;
+   margin-left: 344px;
+}
+
+.first-section .title {
+    background-image: url(./images/fon.png);
+}
+
+.first-section .title .content {
+    text-align: center;
+    padding-top: 168px;
+    margin: 0 120px;
+    color: #FFF;
+}
+
+.first-section .title .content .l-logo {
+    padding-bottom: 34px;
+}
+
+.first-section .title .content .text h1{
+    font-size: 48px;
+    line-height: 52.8px;
+    padding-bottom: 34px;
+}
+
+.first-section .title .content .text p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.first-section .title .content .text {
+    margin-bottom: 240px;
+}
+
+.second-container {
+    background-color: #FAF8F0;
+}
+
+.second-container hr,
+.third-container hr,
+.arrangements hr,
+.benefit .content-benefit hr  {
+    width: 42px;
+    height: 8px;
+    background: #E08631;
+}
+
+.second-container > div {
+    padding-top: 100px;
+}
+
+.second-container .second-content{
+    padding-top: 33px;
+    padding-bottom: 100px;
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.second-container .second-content p {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.second-container .second-content .left-content {
+    width: 360px;
+}
+
+.second-container .second-content .right-content {
+    width: 343px;
+}
+
+.second-container .second-content .right-content p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 11px 18px;
+    border-radius: 6px;
+    background: #52503B;
+}
+
+.second-container .second-content .right-content p {
+    margin-bottom: 41px;
+}
+
+.third-container .third-content {
+    padding-top: 100px;
+    padding-bottom: 140px;
+    text-align: center;
+    width: 1287px;
+    margin: 0 auto;
+}
+
+.third-container .third-content h2 {
+    color: #52503B;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    margin-top: 32px;
+}
+
+.arrangements {
+    background-color: #FAF8F0;
+}
+
+.arrangements .content-arrangements {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.arrangements .content-arrangements .first-block {
+    width: 600px;
+    text-align: center;
+    color: #52503B;
+    margin: 0 auto;
+}
+
+.arrangements .content-arrangements .first-block h3 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+.arrangements .content-arrangements .first-block p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.arrangements .content-arrangements .second-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+    width: 1168px;
+}
+
+.arrangements .content-arrangements .second-block .beds,
+.arrangements .content-arrangements .second-block .bedrooms,
+.arrangements .content-arrangements .second-block .bathrooms {
+    width: 346px;
+}
+
+.arrangements .content-arrangements .second-block .beds h6,
+.arrangements .content-arrangements .second-block .bedrooms h6,
+.arrangements .content-arrangements .second-block .bathrooms h6{
+    margin-top: 12px;
+    margin-bottom: 1px;
+    line-height: 24px;
+    color: #52503B;
+}
+
+.arrangements .content-arrangements .second-block .beds p,
+.arrangements .content-arrangements .second-block .bedrooms p,
+.arrangements .content-arrangements .second-block .bathrooms p {
+    color: #52503B;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.benefit .content-benefit {
+    width: 1200px;
+    margin: 100px auto;
+    color: #52503B;
+}
+
+.benefit .content-benefit h3 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+.benefit .content-benefit p {
+    line-height: 24px;
+    width: 600px;
+}
+
+.benefit .content-benefit .benefit-items {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit .content-benefit .benefit-items .left-side,
+.benefit .content-benefit .benefit-items .right-side {
+    width: 568px;
+}
+
+.benefit .content-benefit .benefit-items .left-side>div,
+.benefit .content-benefit .benefit-items .right-side>div {
+    margin-bottom: 32px;
+    display: flex;
+}
+
+.benefit .content-benefit .benefit-items .left-side .description,
+.benefit .content-benefit .benefit-items .right-side .description {
+    padding-left: 16px;
+}
+
+footer {
+    background-color: #52503B;
+}
+
+footer .info {
+    padding: 100px 136px;
+}
+
+footer .info .content-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .info .content-footer h4 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+footer .info .content-footer ul li a,
+footer .info .content-footer h4,
+footer .info .content-footer .newsletter p {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+footer .info .content-footer ul li {
+    margin-bottom: 10px;
+}
+
+footer .info .content-footer .pages,
+footer .info .content-footer .social {
+    width: 280px;
+}
+
+footer .info .content-footer .social img {
+    padding-right: 20px;
+}
+
+footer .info .content-footer .newsletter form {
+    margin-top: 9px; 
+    
+}
+
+footer .info .content-footer .newsletter form .form {
+    width: 560px;
+    height: 56px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #52503B;
+    padding-left: 30px;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+}
+
+footer .info .content-footer .newsletter form .batton {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background: #52503B;
+    position: relative;
+    left: -100px;
+    cursor: pointer;
+}
+
+footer .info .dop-info {
+    text-align: center;
+    margin-top: 48px;
+}
+
+footer .info .dop-info p {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+}
+
